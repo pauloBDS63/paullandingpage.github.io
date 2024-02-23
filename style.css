@@ -1,0 +1,191 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1300px;
+    margin:  auto;
+    padding: 30 50px;
+}
+
+header {
+    background-image: url(IMAGES/OP13_20240207_093.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px; 
+    margin-bottom: 30px;
+}
+
+
+.project-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.project-image h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center; 
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.features p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.testimonials {
+    background-color: #333;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.get-started {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.get-started h2 {
+    font-size: 20px; 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.block {
+    flex: 0 0 30%; 
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 16px;
+}
+
+.block img {
+    width: 100%; 
+    height: auto; 
+    max-width: 400px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    text-decoration: none;
+    background-color: black; 
+    color: white; 
+    border-radius: 15px; 
+}
+
+
+footer {
+    background-image: url(IMAGES/OP13_20240207_088.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-align: center;
+    padding: 250px 0;
+}
+
+.logo-section {
+    display: flex; /* Utilise la disposition flexible pour aligner les logos horizontalement */
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; /* Centre les logos verticalement si nécessaire */
+    margin-top: 10px; /
+}
+
+
+.logo-section img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 800px; /* Ajuste la largeur maximale du conteneur si nécessaire */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+}
+
+.container p {
+    font-size: 20px; /* Ajuste la taille du texte selon tes besoins */
+    margin: 50px 20; /
+}
+
